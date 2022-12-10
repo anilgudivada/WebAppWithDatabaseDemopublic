@@ -34,7 +34,7 @@ stages:
     displayName: Build Web App
     pool:
       name: Hosted Windows 2019 with VS2019 
-      vmImage: 'windows-2019'
+      vmImage: 'ianiwinhosted'
     variables:
       BuildConfiguration: release
     steps:
