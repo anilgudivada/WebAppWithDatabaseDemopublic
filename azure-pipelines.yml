@@ -76,9 +76,9 @@ stages:
       displayName: Prepare analysis on SonarCloud
       enabled: ${{ parameters.runCompletePipeline }}
       inputs:
-        SonarCloud: ianilsonarcloud
+        SonarCloud: ianiltoken1
         organization: ianiltoken1
-        projectKey: ianiltoken1
+        projectKey: ianil_ideepi
    
 
     - task: DotNetCoreCLI@2
