@@ -77,7 +77,7 @@ stages:
       enabled: ${{ parameters.runCompletePipeline }}
       inputs:
         SonarCloud: ianiltoken1
-        organization: ianiltoken1
+        organization: ianilsonarcloud
         projectKey: ianil_ideepi
    
 
