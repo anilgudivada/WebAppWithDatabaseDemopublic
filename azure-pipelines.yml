@@ -33,7 +33,7 @@ stages:
   - job: WebApp
     displayName: Build Web App
     pool:
-      name: Hosted Windows 2019 with VS2019 
+      name: Default
       vmImage: 'ianiwinhosted'
     variables:
       BuildConfiguration: release
