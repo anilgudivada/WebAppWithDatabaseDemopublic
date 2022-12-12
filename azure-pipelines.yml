@@ -8,7 +8,6 @@ pr:
       - README.md
 
 trigger:
- batch: true
  branches:
    include:
      - master
