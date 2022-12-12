@@ -24,7 +24,7 @@ parameters:
   displayName: Run All Tasks ?
   type: boolean
   default: true
-
+lockBehavior: runLatest
 stages:
 - stage: Build_Stage
   displayName: Build Apps
