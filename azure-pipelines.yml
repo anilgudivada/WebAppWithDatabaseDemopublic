@@ -114,7 +114,7 @@ stages:
   - job: Database
     displayName: Build Database
     pool:
-      vmImage: 'windows-2019'
+      vmImage: 'ianiwinhosted'
       demands: msbuild
     steps:
 
