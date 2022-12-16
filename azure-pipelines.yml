@@ -111,12 +111,6 @@ stages:
       displayName: Publish Quality Gate Result
       enabled: ${{ parameters.runCompletePipeline }}
 
-  - job: Database
-    displayName: Build Database
-    pool:
-      vmImage: 'ianiwinhosted'
-      demands: msbuild
-    steps:
 
     - task: MSBuild@1
       displayName: Build WebApp.Database.sqlproj
